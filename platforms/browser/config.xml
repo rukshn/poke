@@ -8,10 +8,10 @@
     </feature>
     <name>Poke</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Anonymous status messages
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="arkruka+fun@gmail.com" href="http://ruky.xyz">
+        Refresh Labs
     </author>
     <content src="index.html" />
     <access origin="*" />
@@ -22,5 +22,5 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <preference name="DisallowOverscroll" value="true" />
-    <preference name="android-minSdkVersion" value="14" />
+    <preference name="android-minSdkVersion" value="21" />
 </widget>

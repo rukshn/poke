@@ -3,10 +3,10 @@
     display: none;
 }
 
-.feed{
-    padding: 2%;
+.card{
+    margin-bottom: 2%;
 }
 
-.card{
-    margin-top: 2%;
+.navbar{
+	margin-bottom: 2%;
 }
