@@ -16,11 +16,11 @@ $('#post').click(function(e){
     $('#render-feed').prepend(html);
     $('#msg').val('');
 
-	// $.ajax({
-	// 	method: 'POST',
-	// 	data: {message: data, dtime: time},
-	// 	url: url
-	// })
+	$.ajax({
+		method: 'POST',
+		data: {message: data, dtime: time},
+		url: url
+	})
 })
 
 // A $( document ).ready() block.
